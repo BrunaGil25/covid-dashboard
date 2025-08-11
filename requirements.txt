@@ -5,6 +5,7 @@ plotly
 scikit-learn
 requests
 matplotlib
-seaborn 
-altair 
-io 
+seaborn
+altair
+
+
