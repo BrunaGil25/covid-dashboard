@@ -31,7 +31,7 @@ streamlit run app.py
 
 ## 🌐 Live App
 Check out the deployed version:
-👉 Streamlit App (👉 [Launch the dashboard](https://share.streamlit.io/BrunaGil25/covid-dashboard/app.py))
+👉 Streamlit App (https://covid-dashboard-brunagil.streamlit.app/)
 
 ## 📁 Required Datasets
 
