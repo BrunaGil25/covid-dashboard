@@ -14,14 +14,9 @@ st.set_page_config(page_title="COVID-19 Impact Dashboard", layout="wide")
 
 # -------------------- Sidebar config: file paths --------------------
 st.sidebar.header("Data sources")
-vacc_path = st.sidebar.text_input(
-    "Path to vaccinations.csv",
-    r"C:\Users\bruna\Desktop\covid-dashboard\data\vaccinations.csv"
-)
-covid_path = st.sidebar.text_input(
-    "Path to covid_metrics.csv",
-    r"C:\Users\bruna\Desktop\covid-dashboard\data\covid_metrics.csv"
-)
+
+vacc_path = st.sidebar.text_input("Path to vaccinations.csv", "data/vaccinations.csv")
+covid_path = st.sidebar.text_input("Path to covid_metrics.csv", "data/covid_metrics.csv")
 
 # -------------------- Helpers --------------------
 def alias_column(df: pd.DataFrame, targets: list[str], new_name: str):
