@@ -23,7 +23,6 @@ Created by [Bruna Gil Garcia](https://www.linkedin.com/in/bruna-gil-garcia-80656
 
 To run locally:
 
-### bash
 git clone https://github.com/BrunaGil25/covid-dashboard.git
 cd covid-dashboard
 pip install -r requirements.txt
